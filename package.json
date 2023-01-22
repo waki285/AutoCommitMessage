@@ -1,0 +1,19 @@
+{
+  "name": "@suzuneu/autocommitmessage",
+  "version": "1.0.0",
+  "description": "Commit message selector",
+  "main": "index.js",
+  "repository": "https://github.com/waki285/AutoCommitMessage",
+  "author": "waki285 <suzuneu@suzuneu.com>",
+  "license": "MIT",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "acm": "index.js"
+  },
+  "dependencies": {
+    "enquirer": "^2.3.6"
+  }
+}
